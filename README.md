@@ -1,4 +1,4 @@
-[English](./README_EN) | 简体中文
+[English](./README_EN.md) | 简体中文
 
 # Ryzen 安装 hackintosh 的 OpenCore EFI 文件
 

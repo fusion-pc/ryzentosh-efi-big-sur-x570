@@ -1,4 +1,4 @@
-English | [简体中文](./README)
+English | [简体中文](./README.md)
 
 # EFI folder for Ryzen hackintosh installation
 
