@@ -17,8 +17,8 @@ macOS Version: Big Sur(11.2.3)
 | GPU               | Sapphire Radeon RX 590 Nitro+ 8G G5                         |
 | RAM               | 32 GB (16GB × 2) Corsair Vengeance RGB Pro DDR4 @ 3200MHz   |
 | SSD               | 1TB WD Black SN750, 500GB Samsung 860 EVO SATA              |
-| Wireless Ethernet | Build-in Intel AX200                                        |
-| Ethernet          | Build-in Intel I211-AT 1G, Build-in Realtek RTL8125-CG 2.5G |
+| Wireless Ethernet | On-board Intel AX200                                        |
+| Ethernet          | On-board Intel I211-AT 1G, On-board Realtek RTL8125-CG 2.5G |
 
 ## Installation
 
@@ -28,20 +28,20 @@ macOS Version: Big Sur(11.2.3)
 
 ## Working
 
-- WIFI, Bluetooth*, Ethernet within MotherBoard (2.5G and 1G)
+- WIFI, Bluetooth*, On-board Ethernet (2.5G and 1G)
 - iMessage, iCloud, FaceTime, App Store, Apple Music
 - HandOff, AirPlay
 - All USB ports
 - Sleep and Wake-up
 
-\* Sometimes it doesn't work when it wake up from a long time sleeping.
+\* Bluetooth doesn't work intermittently after wakeing up from a long time sleeping .
 
 ## Not Working
 
 - AirDrop, Sidecar
 - Unlock with Apple Watch
 
-\* AirDrop, Sidecar and Unlock with Apple Watch need to install the Broadcom Wireless/Bluetooth Card
+\* AirDrop, Sidecar and Unlock with Apple Watch need to switch to the compatible Broadcom Wireless/Bluetooth Card
 
 ## FAQ
 
