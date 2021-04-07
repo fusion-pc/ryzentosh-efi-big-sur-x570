@@ -6,6 +6,8 @@ OpenCore Version: v0.6.8
 
 macOS Version: Big Sur(11.2.3)
 
+![Screenshot](Screenshot.png)
+
 ## Specification
 
 | Component         | Model                                                       |

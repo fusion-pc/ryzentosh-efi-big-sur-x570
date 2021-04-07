@@ -6,6 +6,8 @@ OpenCore 版本：v0.6.8
 
 macOS 版本：Big Sur(11.2.3)
 
+![Screenshot](Screenshot.png)
+
 ## 规格参数
 
 | 类型     | 型号                                                     |
