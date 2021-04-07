@@ -39,10 +39,16 @@ macOS Version: Big Sur(11.2.3)
 ## Not Working
 
 - AirDrop, Sidecar
-- Authenticate with Apple Watch
+- Unlock with Apple Watch
+
+\* AirDrop, Sidecar and Unlock with Apple Watch need to install the Broadcom Wireless/Bluetooth Card
 
 ## FAQ
 
-### Q: Docker show "it's not compatible with this(AMD) architecture" OR VMware is not working
+### Q: Docker show "it's not compatible with this architecture" OR VMware Fusion and Parallel Desktop are not working
 
-A: Install VirtualBox and install a Linux virtual machine on it.
+A: Both Docker, VMware Fusion, Parallel Destop are built based on Apple Hypervisor Kit. Meanwhile, the Apple Hypervisor Kit depends on the Intel VT-x virtualization technology. Install Virtualbox instead for virtualization support.
+
+### Q: Adobe Apps, Luminar etc. crashes  
+
+A: Some of the apps will encounter crashes while running, the problem is that these apps using some intel exclusive instructions like ***intel_fast_memset***, which cannot be processed correctly on AMD processors. The solution can refer to [AdobeAMDFix.md](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)

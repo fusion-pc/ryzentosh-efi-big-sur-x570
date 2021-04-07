@@ -45,6 +45,11 @@ macOS 版本：Big Sur(11.2.3)
 
 ## FAQ
 
-### 问：Docker 显示 "it's not compatible with this(AMD) architecture" 或 VMware 无法运行
+### 问：Docker 显示 "it's not compatible with this architecture" 或 VMware Fusion/Parallel Desktop 无法运行
 
-答：安装 VirtualBox 后，再在上面安装一个 Linux 虚拟机。
+答：Docker, VMware Fusion, Parallel Destop 等虚拟化软件均基于 Apple Hypervisor Kit 构建，而 Apple Hypervisor Kit 使用了 Intel VT-x Virtualization Technology, 需要虚拟化支持可以考虑安装 VirtualBox。
+
+### 问：Adobe 全家桶和 Luminar 等应用程序崩溃
+
+答：此类软件的共同点是使用了部分 Intel 特有的指令如 ***intel_fast_memset*** 等，这些指令无法正常地被 AMD 处理器执行从而导致崩溃，解决方法可以参考 [AdobeAMDFix.md](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)
+
